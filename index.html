@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json Creator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="con">
+        <input type="text" id="soru" placeholder="Sorunuz Yazınınz: ">
+    <div class="ans">
+        <div>
+            <input type="text" id="a" placeholder="A">
+            <div>
+                <label>Doğru Cevap</label>
+                <input type="checkbox" id="true-a">
+            </div>
+        </div>
+
+        <div>
+            <input type="text" id="b" placeholder="B">
+            <div>
+                <label>Doğru Cevap</label>
+                <input type="checkbox" id="true-b">
+            </div>
+        </div>
+
+        <div>
+            <input type="text" id="c" placeholder="C">
+            <div>
+                <label>Doğru Cevap</label>
+                <input type="checkbox" id="true-c">
+            </div>
+        </div>
+
+        <div>
+            <input type="text" id="d" placeholder="D">
+            <div>
+                <label>Doğru Cevap</label>
+                <input type="checkbox" id="true-d">
+            </div>
+        </div>
+
+        <div>
+            <input type="text" id="e" placeholder="E">
+            <div>
+                <label>Doğru Cevap</label>
+                <input type="checkbox" id="true-e">
+            </div>
+        </div>
+        
+    </div>
+    <button id="kaydet" onclick="kaydett()">kaydet</button>
+    <button id="copy" class="copy" onclick="copyText()">copy</button>
+    <textarea id="result" cols="30" rows="10"></textarea>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
